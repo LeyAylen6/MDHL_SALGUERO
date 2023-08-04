@@ -1,0 +1,38 @@
+header {
+    width: 75%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+} 
+
+header > h1 {
+    width: 100%;
+    height: 10%;
+    font-size: 50px;
+    text-align: start;
+    font-style:italic
+}
+
+.bannerContainer {
+    width: 100%;
+    height: 80%;
+    overflow: hidden;
+    display: grid;
+    grid-template-rows: 79% 21%;
+}
+
+.bannerContainer > img {
+    width: 100%;
+}
+
+.bannerContainer > h2 {
+    background-color: rgb(73, 87, 212);
+    color: white;
+    font-weight: 500;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 5px;
+}

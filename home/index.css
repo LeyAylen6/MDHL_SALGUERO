@@ -1,0 +1,62 @@
+Body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 75%;
+}
+
+.eventsContainer {
+    width: 80%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.eventsContainer > h2 {
+    font-size: 35px;
+    width: 100%;
+    text-align: center;
+}
+
+.event {
+    width: 100%;
+    height: 20%;
+    box-shadow: 2px 3px 10px rgb(182, 182, 182);
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.event > h3 {
+    font-size: 25px;
+    text-shadow: 0px 0.5px 2px rgb(102, 102, 245);
+    height: 50%;
+}
+
+.event > p {
+    text-align: center;
+    width: 100%;
+    height: 50%;
+    font-size: 18px;
+}
+
+.event:hover {
+    transform: scale(1.02);
+    transition: .5s;
+}
+
