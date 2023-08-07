@@ -1,0 +1,11 @@
+.images {
+    display: flex;
+    align-items: start;
+    height: 100%;
+    width: 20%;
+}
+
+.logo {
+    width: 100%;
+    cursor: pointer;
+}
